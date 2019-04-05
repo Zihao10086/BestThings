@@ -22,6 +22,7 @@ import java.util.*
 
 class AccountBookActivity : AppCompatActivity(),AnkoLogger {
 
+    //halo
     var record = AccountBookModel()
     lateinit var app:MainApp //Null Safety in action, we don't need to initialise it at first because 'lateinit'
     var edit = false//the flag of updating
