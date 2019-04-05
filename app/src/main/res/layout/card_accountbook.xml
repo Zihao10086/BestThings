@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:elevation="24dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+        <ImageView
+                android:id = "@+id/imageView"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="16dp"/>
+
+        <TextView
+                android:id="@+id/accountTypeC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imageView"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:id="@+id/descriptionC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountTypeC"
+                android:layout_toRightOf="@id/imageView"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:id="@+id/totalC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descriptionC"
+                android:layout_toRightOf="@id/imageView"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:id="@+id/dateC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalC"
+                android:layout_toRightOf="@id/imageView"
+                android:textSize="18sp"/>
+        <RatingBar
+                android:id="@+id/rating_barC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dateC"
+                android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
