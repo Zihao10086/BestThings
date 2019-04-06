@@ -6,6 +6,7 @@ import kotlinx.android.parcel.Parcelize
 //all the values of one record
 @Parcelize  //it implements a parcelize capability
 data class AccountBookModel(var id: Long = 0,
+                            var fbId:String = "",//In order for firebase
                             var type: String = "",
                             var description:String = "",
                             var total : String = "",
